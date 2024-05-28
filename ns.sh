@@ -1,3 +1,5 @@
+echo "alias auu='sudo apt update; sudo apt upgrade -y; sudo apt autoremove -y'" >> ~/.bash_aliases
+
 touch ~/.npmrc
 
 echo "@ns:registry=https://nexus.topaas.ns.nl/repository/NS_CRAWS_NPM_releases" >> ~/.npmrc
